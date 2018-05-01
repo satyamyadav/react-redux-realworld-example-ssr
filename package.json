@@ -3,14 +3,30 @@
   "version": "0.1.1-0",
   "private": true,
   "dependencies": {
+    "express": "^4.6.13",
     "react": "^16.3.2",
-    "react-dom": "^16.3.2",
-    "react-scripts": "1.1.4"
+    "react-dom": "^16.3.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "start": "react-app start",
+    "build": "react-app build",
+    "test": "react-app test --env=jsdom",
+    "eject": "react-app eject"
+  },
+  "devDependencies": {
+    "react-app-tools": "^2.0.3"
+  },
+  "browserslist": {
+    "development": [
+      "last 2 chrome versions",
+      "last 2 firefox versions",
+      "last 2 edge versions"
+    ],
+    "production": [
+      ">1%",
+      "last 4 versions",
+      "Firefox ESR",
+      "not ie < 11"
+    ]
   }
 }
