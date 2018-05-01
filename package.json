@@ -3,6 +3,7 @@
   "version": "0.1.1-1",
   "private": true,
   "dependencies": {
+    "config": "^1.30.0",
     "express": "^4.6.13",
     "react": "^16.3.2",
     "react-dom": "^16.3.2"
@@ -11,7 +12,8 @@
     "start": "react-app start",
     "build": "react-app build",
     "test": "react-app test --env=jsdom",
-    "eject": "react-app eject"
+    "eject": "react-app eject",
+    "start:prod": "export NODE_ENV=production && node build/app.js"
   },
   "devDependencies": {
     "react-app-tools": "^2.0.3"
