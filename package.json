@@ -1,6 +1,6 @@
 {
   "name": "react-redux-ssr",
-  "version": "0.1.1-1",
+  "version": "0.1.1-2",
   "private": true,
   "dependencies": {
     "config": "^1.30.0",
